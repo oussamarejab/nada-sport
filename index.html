@@ -63,7 +63,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img style="width: 120px;" src="assets/images/Logo/logo.jpg" alt="">
+                            <img style="width: 150px;" src="assets/images/Logo/logoo.png" alt="">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -118,24 +118,91 @@
     </header>
     <!-- ***** Header Area End ***** -->
 
+
+
+
+    <!-- <div class="col-lg-6">
+        <a href="https://qatarse.org/" target="_blank">
+            <img src="assets/images/Logo/engineering association.png" alt="expotale"></a>
+    </div>
+
+    <div class="col-lg-6">
+        <a href="http://expotale.com/" target="_blank">
+            <img style="width: 100px;" src="assets/images/Logo/expotale-removebg-preview.png" alt="المهندسين">
+        </a>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- ***** Main Banner Area Start ***** -->
     <section class="section main-banner" id="top" data-section="section1">
 
 
-
-
-
         <video autoplay muted loop id="bg-video">
+        
           <source src="assets/images/course-video.mp4" type="video/mp4" />
+
       </video>
 
         <div class="video-overlay header-text">
+
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
+
+                <div class="row" style="margin-top: 200px;">
+
+
+
+
+
+                    <div class="col-lg-5">
+                        <div style="width: 300px;">
+                            <img width="300px" src="assets/images/amir.png" alt="">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
                         <div class="caption">
-                            <h4 style="color: white;">The Conference Date : 10-10-2022</h4>
-                            <br>
+
+
+                            <div style="background-color: white; text-align: center;">
+                                <label id="Compte "></label>
+                                <script type="text/javascript ">
+                                    var Affiche = document.getElementById("Compte ");
+
+                                    function Rebour() {
+                                        var date1 = new Date();
+                                        var date2 = new Date("march 25, 2022 00:00:00 ");
+                                        var sec = (date2 - date1) / 1000;
+                                        var n = 24 * 3600;
+                                        if (sec > 0) {
+                                            j = Math.floor(sec / n);
+                                            h = Math.floor((sec - (j * n)) / 3600);
+                                            mn = Math.floor((sec - ((j * n + h * 3600))) / 60);
+                                            sec = Math.floor(sec - ((j * n + h * 3600 + mn * 60)));
+                                            Affiche.innerHTML = " Rest for The Conference 0.0 : " + j + " day " + h + " h " + mn + " min " + sec + " s ";
+                                            window.status = "Temps restant : " + j + " j " + h + " h " + mn + " min " + sec + " s ";
+                                        }
+                                        tRebour = setTimeout("Rebour(); ", 1000);
+                                    }
+                                    Rebour();
+                                </script>
+                            </div>
+
+                            <h4 style="color: white; ">The Conference Date : 10-10-2022</h4>
                             <h6>AMIR OF STATE OF QATAR</h6>
                             <h2>SHEIKH <br> TAMIM BIN HAMAD AL THANI</h2>
                             <p>“Qatar is looking forward, and more excited and enthusiastic than ever, to welcome guests from all over the world for an exceptional World Cup".</p>
@@ -143,27 +210,23 @@
                                 <div class="scroll-to-section"><a href="#contact">Become A SPONSOR</a></div>
                             </div>
                         </div>
+
+                        <!-- <div class="col-lg-8">
+
+                                <h4 style="color: white;">The Conference Date : 10-10-2022</h4>
+                                <br>
+                                <h6>AMIR OF STATE OF QATAR</h6>
+                                <h2>SHEIKH <br> TAMIM BIN HAMAD AL THANI</h2>
+                                <p>“Qatar is looking forward, and more excited and enthusiastic than ever, to welcome guests from all over the world for an exceptional World Cup".</p>
+                                <div class="main-button-red">
+                                    <div class="scroll-to-section"><a href="#contact">Become A SPONSOR</a></div>
+                                </div>
+                            </div> -->
                     </div>
-                    <div class="col-lg-6">
 
-                        <div class="caption" style="align-items: center; text-align: center;">
-                            <div class="col-lg-12">
 
-                                <a href="https://qatarse.org/" target="_blank">
-                                    <img src="assets/images/Logo/engineering association.png" alt="expotale"></a>
-                            </div>
-                            <br>
-                            <div class="col-lg-12">
-                                <a href="http://expotale.com/" target="_blank">
-                                    <img style="width: 100px;" src="assets/images/Logo/expotale.png" alt="المهندسين">
-                                </a>
-                            </div>
 
-                            <style>
 
-                            </style>
-                        </div>
-                    </div>
                 </div>
     </section>
     <!-- ***** Main Banner Area End ***** -->
@@ -229,24 +292,38 @@
     </section>
 
 
-    <section class="apply-now" id="apply">
-        <div style="width: 80%; margin: 20px auto; background-color: rgba(128, 128, 128, 0.501);">
-            <h2 style="text-align: center;">Sports engineering is concerned with the research and development of technologies for the sports industry</h2>
+    <section class="apply-now" id="apply" style="margin-top: 60px;">
+        <!-- <div style="width: 80%; margin: 20px auto; background-color: rgba(0, 0, 0, 0.453); padding: 20px; border-radius: 12px;">
+            <h2 style="text-align: center; color: white;">Sports engineering is concerned with the research and development of technologies for the sports industry</h2>
 
             <br>
-            <h6>This is the first event of its kind in the Middle East, highlighting engineering sciences and their impact on the development and flourish of the field of sport. This event will focus on providing a deeper and more comprehensive knowledge,
+            <h6 style="line-height: 3; color: white; font-size: 1rem;">This is the first event of its kind in the Middle East, highlighting engineering sciences and their impact on the development and flourish of the field of sport. This event will focus on providing a deeper and more comprehensive knowledge,
                 especially among sports experts, and highlighting the importance of sports engineering and its various applications, as it has become an essential part in the sport field. The event will also discuss all ongoing sport projects and facilities
                 that Qatar has accomplished so far, in addition to the ongoing projects in the framework of preparations for the 2022 World Cup and beyond, to ensure the development of society and the achievement of Qatar Vision 2030.</h6>
-
+ -->
 
 
         </div>
 
         <div class="container">
             <div class="row">
+                <h1 style="text-align: center; width: 800px; margin: 50px auto; background-color: white; border-radius: 10px;">WHY QATAR INT’L SPORT ENGINEERING EXHIBITION & CONFERENCE</h1>
 
-                <div class="col-lg-12">
-                    <h1 style="text-align: center; color: white;">WHY QATAR INT’L SPORT ENGINEERING EXHIBITION & CONFERENCE</h1>
+                <div class="col-lg-6">
+
+                    <h4 style="text-align: center; ">Sports engineering is concerned with the research and development of technologies for the sports industry</h4>
+
+                    <br>
+                    <h6 style="line-height: 3;  font-size: 1rem;">This is the first event of its kind in the Middle East, highlighting engineering sciences and their impact on the development and flourish of the field of sport. This event will focus on providing a deeper and more comprehensive knowledge,
+                        especially among sports experts, and highlighting the importance of sports engineering and its various applications, as it has become an essential part in the sport field. The event will also discuss all ongoing sport projects
+                        and facilities that Qatar has accomplished so far, in addition to the ongoing projects in the framework of preparations for the 2022 World Cup and beyond, to ensure the development of society and the achievement of Qatar Vision
+                        2030.
+                    </h6>
+
+                </div>
+
+
+                <div class="col-lg-6">
                     <div class="accordions is-first-expanded">
                         <article class="accordion">
                             <div class="accordion-head">
@@ -310,7 +387,7 @@
                 <div class="col-lg-9 align-self-center">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form id="contact" action="" method="post">
+                            <form id="contact" action="oussama.php" method="post">
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <h2>Book now</h2>
@@ -354,17 +431,12 @@
                                             <input type="radio" id="t-option" name="selector" tabindex="3">
                                             <span>Speaker</span>
                                           </label>
+                                        <style>
+                                            #radiosub label {
+                                                margin: 30px;
+                                            }
+                                        </style>
                                     </div>
-                                    <style>
-                                        #radiosub label {
-                                            margin: 30px;
-                                        }
-                                    </style>
-
-
-
-
-
 
 
                                     <div class="col-lg-12">
@@ -374,7 +446,9 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <fieldset>
-                                            <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
+                                            <input id="form-submit" class="button" type="submit" value="Send">
+
+                                            <!-- <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button> -->
                                         </fieldset>
                                     </div>
                                 </div>

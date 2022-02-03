@@ -200,7 +200,7 @@ body {
 .main-button-red a {
     font-size: 13px;
     color: #fff;
-    background-color: #a12c2f;
+    background-color: #4c8fc2;
     padding: 12px 30px;
     display: inline-block;
     border-radius: 22px;
@@ -249,7 +249,10 @@ header
 */
 
 .sub-header {
-    background-color: #1f272b;
+    background-image: url(../images/service-item-bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #a6721f;
     position: relative;
     z-index: 1111;
 }
@@ -819,7 +822,7 @@ services
 }
 
 .services .item {
-    background-image: url(../images/service-item-bg.jpg);
+    background-image: url(../images/sponsor.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -830,7 +833,7 @@ services
 }
 
 .services .item .icon {
-    max-width: 60px;
+    max-width: 100px;
     margin: 0 auto;
 }
 
@@ -1062,7 +1065,8 @@ apply now
 */
 
 section.apply-now {
-    background-image: url(../images/1.png);
+    background-image: url(../images/sec.png);
+    /* background-color: black; */
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1155,7 +1159,7 @@ courses
 */
 
 section.our-courses {
-    background-image: url(../images/meetings-bg.jpg);
+    background-image: url(../images/meetingscontact.png);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1374,7 +1378,7 @@ contact us
 */
 
 section.contact-us {
-    background-image: url(../images/meetings-bg.jpg);
+    background-image: url(../images/contacttt.png);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1448,7 +1452,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-    background-color: #a12c2f;
+    background-color: #2c43a1;
     border-radius: 20px;
     padding: 40px;
 }
