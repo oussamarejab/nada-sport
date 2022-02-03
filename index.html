@@ -38,7 +38,6 @@
             <div class="row">
                 <div class="col-lg-8 col-sm-8">
                     <div class="left-content">
-                        <!-- <p>This is an educational <em>HTML CSS</em> template by TemplateMo website.</p> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
@@ -46,7 +45,6 @@
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
@@ -59,7 +57,7 @@
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" style="background-color: white; border-radius: 10px;">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
@@ -137,9 +135,17 @@
 
 
 
+    <!-- 
+    <div class="caption">
 
-
-
+        <h4 style="color: white; ">The Conference Date : 10-10-2022</h4>
+        <h6>AMIR OF STATE OF QATAR</h6>
+        <h2>SHEIKH <br> TAMIM BIN HAMAD AL THANI</h2>
+        <p>“Qatar is looking forward, and more excited and enthusiastic than ever, to welcome guests from all over the world for an exceptional World Cup".</p>
+        <div class="main-button-red">
+            <div class="scroll-to-section"><a href="#contact">Become A SPONSOR</a></div>
+        </div>
+    </div> -->
 
 
 
@@ -149,163 +155,142 @@
 
 
     <!-- ***** Main Banner Area Start ***** -->
-    <section class="section main-banner" id="top" data-section="section1">
-
-
+    <section class="section main-banner" id="top" data-section="section1" style="height: auto;">
         <video autoplay muted loop id="bg-video">
-        
           <source src="assets/images/course-video.mp4" type="video/mp4" />
-
       </video>
-
         <div class="video-overlay header-text">
 
             <div class="container">
 
-                <div class="row" style="margin-top: 200px;">
-
-
-
-
-
-                    <div class="col-lg-5">
-                        <div style="width: 300px;">
-                            <img width="300px" src="assets/images/amir.png" alt="">
-
+                <div class="row" style="margin-top: 100px;">
+                    <div class="titreouss">
+                        <!-- <h4 style="width: 100%; color: black; margin: 10px ; text-align: center;">
+                            QATAR SPORT ENGINEERING EXHIBITION & CONFERENCE</h4> -->
+                    </div>
+                    <style>
+                        .titreouss {
+                            background-image: url(assets/images/llllll.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 100%;
+                            right: 0;
+                            left: 0;
+                            margin: 10px;
+                            border-radius: 8px;
+                        }
+                    </style>
+                    <div class="col-lg-6">
+                        <div class="col-lg-6" ">
+                            <img style= "width:200px; border-radius: 10px; margin-left: 50px; " src="assets/images/amir.png " alt=" ">
+                        </div>
+                        <div class=" oussama col-lg-9 " style="width: 100%; ">
+                           
+                            <p style="width: 60%; margin: 15px ; color: white; ">“Qatar is looking forward, and more excited and enthusiastic than ever, to welcome guests from all over the world for an exceptional World Cup".</p>
+                            <h6>HIS HIGHNESS SHEIKH TAMIM BIN HAMAD AL THANI <br>Amir of the State of Qatar.”</h6>
+                            <style>
+                                .section .container .row .col-lg-6 .oussama h6,
+                                h4 {
+                                    color: white;
+                                }
+                            </style>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="caption">
+                    <!-- compteur -->
+                    <div class="col-lg-6 " style="background-color: white; align-items: center; text-align: center; padding: 10px auto; border-radius: 10px;">
 
-
-                            <div style="background-color: rgb(45, 64, 211); text-align: center;color: rgb(146, 131, 12) ; margin: 20px auto;
-                            font-size: x-large;
-                            font-weight: bolder;">
-                                <label id="Compte "></label>
-                                <script type="text/javascript ">
-                                    var Affiche = document.getElementById("Compte ");
-
-                                    function Rebour() {
-                                        var date1 = new Date();
-                                        var date2 = new Date("march 25, 2022 00:00:00 ");
-                                        var sec = (date2 - date1) / 1000;
-                                        var n = 24 * 3600;
-                                        if (sec > 0) {
-                                            j = Math.floor(sec / n);
-                                            h = Math.floor((sec - (j * n)) / 3600);
-                                            mn = Math.floor((sec - ((j * n + h * 3600))) / 60);
-                                            sec = Math.floor(sec - ((j * n + h * 3600 + mn * 60)));
-                                            Affiche.innerHTML = " Rest  " + j + " day " + h + " h " + mn + " min " + sec + " s ";
-                                            window.status = "Temps restant : " + j + " j " + h + " h " + mn + " min " + sec + " s ";
-                                        }
-                                        tRebour = setTimeout("Rebour(); ", 1000);
-                                    }
-                                    Rebour();
-                                </script>
-                                <style>
-                                    #Compte {}
-                                </style>
-                            </div>
-
-                            <h4 style="color: white; ">The Conference Date : 10-10-2022</h4>
-                            <h6>AMIR OF STATE OF QATAR</h6>
-                            <h2>SHEIKH <br> TAMIM BIN HAMAD AL THANI</h2>
-                            <p>“Qatar is looking forward, and more excited and enthusiastic than ever, to welcome guests from all over the world for an exceptional World Cup".</p>
-                            <div class="main-button-red">
-                                <div class="scroll-to-section"><a href="#contact">Become A SPONSOR</a></div>
-                            </div>
+                        <div class="col-lg-6" style="margin-top: 40px;">
+                            <a href="https://qatarse.org/" target="_blank">
+                                <img src="assets/images/Logo/engineering association.png" alt="expotale"></a>
                         </div>
 
-                        <!-- <div class="col-lg-8">
+                        <div class="col-lg-10" style="margin-top: -80px;">
+                            <a href="http://expotale.com/" target="_blank">
+                                <img style="width: 100px; float: right;" src="assets/images/Logo/expotale-removebg-preview.png" alt="المهندسين">
+                            </a>
+                        </div>
 
-                                <h4 style="color: white;">The Conference Date : 10-10-2022</h4>
-                                <br>
-                                <h6>AMIR OF STATE OF QATAR</h6>
-                                <h2>SHEIKH <br> TAMIM BIN HAMAD AL THANI</h2>
-                                <p>“Qatar is looking forward, and more excited and enthusiastic than ever, to welcome guests from all over the world for an exceptional World Cup".</p>
-                                <div class="main-button-red">
-                                    <div class="scroll-to-section"><a href="#contact">Become A SPONSOR</a></div>
-                                </div>
-                            </div> -->
+                        <div class="" style="margin-top: 150px; background-color: #d2d7e9; padding: 8px;">
+                            <h4 style="width: 100%; color: black; margin: 10px ; text-align: center;">
+                                QATAR SPORT ENGINEERING EXHIBITION & CONFERENCE</h4>
+                            <HR>
+                            <h5>29 - 27 March 2022</h5>
+
+                            <hr>
+                            <h6>QNCC</h6>
+                        </div>
+
                     </div>
+
+
+
+
+
+                    <!-- compteur -->
+
 
 
 
 
                 </div>
+
+            </div>
+            <!-- <div class="main-button-red ">
+                <div class="scroll-to-section " style="width: 60%; margin: 10px auto; ">
+                    <a href="#contact ">Become A SPONSOR</a></div>
+            </div> -->
     </section>
     <!-- ***** Main Banner Area End ***** -->
 
-    <section class="services">
+
+
+
+
+
+
+    <!-- ================================================================================== -->
+    <section id="clients">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="owl-service-item owl-carousel">
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="assets/images/clients/1.png" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>Qatar Olympic Committee</h4>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="assets/images/clients/2.png" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>
-                                    اللجنة العليا للمشاريع والإرث </h4>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="assets/images/clients/3.png" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>Aspire zone</h4>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="assets/images/clients/4.png" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4> Ministry of Culture & Sports</h4>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="assets/images/clients/3.png" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>Aspire zone</h4>
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="customer">
+                    <img src="assets/images/clients/1.png" alt="expotale for event management and exhibition qatar" />
                 </div>
-
-
+                <div class="customer">
+                    <img src="assets/images/clients/2.png" style="width: 200px;" alt="expotale for event management and exhibition qatar" />
+                </div>
+                <div class="customer">
+                    <img src="assets/images/clients/3.png" height="100" width="auto" alt="expotale for event management and exhibition qatar" />
+                </div>
+                <div class="customer">
+                    <img src="assets/images/clients/4.png" height="100" width="100" alt="expotale for event management and exhibition qatar" />
+                </div>
             </div>
         </div>
+        <style>
+            #clients .customer {
+                width: 140px;
+                margin: 40px auto;
+            }
+            
+            #clients .customer img {
+                width: 100%;
+            }
+        </style>
+
+
     </section>
 
 
-    <section class="apply-now" id="apply" style="margin-top: 60px;">
-        <!-- <div style="width: 80%; margin: 20px auto; background-color: rgba(0, 0, 0, 0.453); padding: 20px; border-radius: 12px;">
-            <h2 style="text-align: center; color: white;">Sports engineering is concerned with the research and development of technologies for the sports industry</h2>
 
-            <br>
-            <h6 style="line-height: 3; color: white; font-size: 1rem;">This is the first event of its kind in the Middle East, highlighting engineering sciences and their impact on the development and flourish of the field of sport. This event will focus on providing a deeper and more comprehensive knowledge,
-                especially among sports experts, and highlighting the importance of sports engineering and its various applications, as it has become an essential part in the sport field. The event will also discuss all ongoing sport projects and facilities
-                that Qatar has accomplished so far, in addition to the ongoing projects in the framework of preparations for the 2022 World Cup and beyond, to ensure the development of society and the achievement of Qatar Vision 2030.</h6>
- -->
+
+
+
+
+
+
+
+    <section class="apply-now" id="apply" style="margin-top: 60px;">
+
 
 
         </div>
@@ -313,70 +298,98 @@
         <div class="container">
             <div class="row">
                 <h1 style="text-align: center; width: 800px; margin: 50px auto; background-color: white; border-radius: 10px;">WHY QATAR INT’L SPORT ENGINEERING EXHIBITION & CONFERENCE</h1>
+                <h4 style="text-align: center; background-color: #212529 ; border-radius: 10px; ">Sports engineering is concerned with the research and development of technologies for the sports industry</h4>
 
-                <div class="col-lg-6">
 
-                    <h4 style="text-align: center; ">Sports engineering is concerned with the research and development of technologies for the sports industry</h4>
 
-                    <br>
-                    <h6 style="line-height: 3;  font-size: 1rem;">This is the first event of its kind in the Middle East, highlighting engineering sciences and their impact on the development and flourish of the field of sport. This event will focus on providing a deeper and more comprehensive knowledge,
-                        especially among sports experts, and highlighting the importance of sports engineering and its various applications, as it has become an essential part in the sport field. The event will also discuss all ongoing sport projects
-                        and facilities that Qatar has accomplished so far, in addition to the ongoing projects in the framework of preparations for the 2022 World Cup and beyond, to ensure the development of society and the achievement of Qatar Vision
-                        2030.
-                    </h6>
+            </div>
 
+
+            <div class="col-lg-10" style="width: 80%; margin: 60px auto;">
+
+
+
+
+
+
+                <style>
+                    .accordion {
+                        background-color: rgb(39, 119, 181);
+                        color: rgb(9, 2, 29);
+                        cursor: pointer;
+                        padding: 25px;
+                        width: 100%;
+                        border: 1px solid;
+                        text-align: center;
+                        outline: none;
+                        font-size: 23px;
+                        transition: 0.4s;
+                    }
+                    
+                    .accordion:hover {
+                        background-color: rgb(22, 20, 114);
+                    }
+                    
+                    .panel {
+                        padding: 0 18px;
+                        font-size: 1.3rem;
+                        background-color: rgba(245, 165, 37, 0.535);
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: max-height 0.2s ease-out;
+                    }
+                    
+                    .panel p {
+                        font-size: 1.2rem;
+                        padding: 20px;
+                    }
+                </style>
+
+
+
+                <button class="accordion">THE EVENT</button>
+                <div class="panel">
+                    <p>This is the first event of its kind in the Middle East, highlighting engineering sciences and their impact on the development and flourish of the field of sport.</p>
                 </div>
 
-
-                <div class="col-lg-6">
-                    <div class="accordions is-first-expanded">
-                        <article class="accordion">
-                            <div class="accordion-head">
-                                <span>WHY</span>
-                                <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                            </div>
-                            <div class="accordion-body">
-                                <div class="content">
-                                    <p>This is the first event of its kind in the Middle East, highlighting engineering sciences and their impact on the development and flourish of the field of sport.</p>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="accordion">
-                            <div class="accordion-head">
-                                <span>FOCUS</span>
-                                <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                            </div>
-                            <div class="accordion-body">
-                                <div class="content">
-                                    <P>This event will focus on providing a deeper and more comprehensive knowledge, especially among sports experts, and highlighting the importance of sports engineering and its various applications, as it has become an
-                                        essential part in the sport field.</P>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="accordion">
-                            <div class="accordion-head">
-                                <span>MAIN SUBJECT</span>
-                                <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                            </div>
-                            <div class="accordion-body">
-                                <div class="content">
-                                    <P>The event will also discuss all ongoing sport projects and facilities that Qatar has accomplished so far, in addition to the ongoing projects in the framework of preparations for the 2022 World Cup and beyond, to ensure
-                                        the development of society and the achievement of Qatar Vision 2030.</P>
-                                </div>
-                            </div>
-                        </article>
-
-                    </div>
+                <button class="accordion">THE POINT OF THE EVENT</button>
+                <div class="panel">
+                    <P>This event will focus on providing a deeper and more comprehensive knowledge, especially among sports experts, and highlighting the importance of sports engineering and its various applications, as it has become an essential part of
+                        the sports field.</P>
                 </div>
+
+                <button class="accordion">TOPICS</button>
+                <div class="panel">
+                    <P>The event will also discuss all ongoing sport projects and facilities that Qatar has accomplished so far, in addition to the ongoing projects in the framework of preparations for the 2022 World Cup and beyond, to ensure the development
+                        of society and the achievement of Qatar Vision 2030.</P>
+                </div>
+
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.maxHeight) {
+                                panel.style.maxHeight = null;
+                            } else {
+                                panel.style.maxHeight = panel.scrollHeight + "px";
+                            }
+                        });
+                    }
+                </script>
+
+
+
             </div>
         </div>
+        </div>
     </section>
+
+
+
 
 
 
@@ -466,14 +479,14 @@
                         <ul>
                             <li>
                                 <h6>Phone Number</h6>
-
+                                <a href="tel:0097444325916" class="phonecalll">0097444325916</a>
                                 <a href="tel:0097433673419" class="phonecalll">0097433673419</a>
 
 
                             </li>
                             <li>
                                 <h6>Email Address</h6>
-                                <span>   <a href="mailto:nada@expotale.com">nada@expotale.com</a>
+                                <span>   <a href="mailto:sports@qatarse.org">sports@qatarse.org</a>
 
                              </span>
                             </li>

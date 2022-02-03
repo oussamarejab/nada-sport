@@ -252,7 +252,7 @@ header
     background-image: url(../images/service-item-bg.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    background-color: #a6721f;
+    background-color: #2c49a4;
     position: relative;
     z-index: 1111;
 }
@@ -382,7 +382,7 @@ header
     font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(4, 3, 58);
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -413,7 +413,7 @@ header
     font-family: FontAwesome;
     content: "\f107";
     font-size: 12px;
-    color: #fff;
+    /* color: #fff; */
     position: absolute;
     right: 5px;
     top: 12px;
@@ -792,7 +792,7 @@ banner
 .main-banner .caption p {
     color: #fff;
     font-size: 14px;
-    max-width: 570px;
+    max-width: 60%;
 }
 
 .main-banner .caption .main-button-red {
