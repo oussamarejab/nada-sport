@@ -178,7 +178,9 @@
                         <div class="caption">
 
 
-                            <div style="background-color: white; text-align: center;">
+                            <div style="background-color: rgb(45, 64, 211); text-align: center;color: rgb(146, 131, 12) ; margin: 20px auto;
+                            font-size: x-large;
+                            font-weight: bolder;">
                                 <label id="Compte "></label>
                                 <script type="text/javascript ">
                                     var Affiche = document.getElementById("Compte ");
@@ -193,13 +195,16 @@
                                             h = Math.floor((sec - (j * n)) / 3600);
                                             mn = Math.floor((sec - ((j * n + h * 3600))) / 60);
                                             sec = Math.floor(sec - ((j * n + h * 3600 + mn * 60)));
-                                            Affiche.innerHTML = " Rest for The Conference 0.0 : " + j + " day " + h + " h " + mn + " min " + sec + " s ";
+                                            Affiche.innerHTML = " Rest  " + j + " day " + h + " h " + mn + " min " + sec + " s ";
                                             window.status = "Temps restant : " + j + " j " + h + " h " + mn + " min " + sec + " s ";
                                         }
                                         tRebour = setTimeout("Rebour(); ", 1000);
                                     }
                                     Rebour();
                                 </script>
+                                <style>
+                                    #Compte {}
+                                </style>
                             </div>
 
                             <h4 style="color: white; ">The Conference Date : 10-10-2022</h4>
