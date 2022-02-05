@@ -1509,11 +1509,11 @@ heading page
 */
 
 section.heading-page {
-    background-image: url(../images/heading-bg.png);
+    /* background-image: url(../images/heading-bg.png); */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 230px;
+    /* padding-top: 230px; */
     padding-bottom: 110px;
     text-align: center;
 }
@@ -1543,6 +1543,47 @@ section.heading-page h2 {
 upcoming meetings page
 ---------------------------------------------
 */
+
+#ex-list {
+    background-image: url(../images/contacttt.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 0px;
+}
+
+
+/* #bookstand {
+    background-image: url(../images/book.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 0px;
+} */
+
+#besps {
+    background-image: url(../images/book.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 0px;
+}
+
+.EXHIBITION-ABOUT {
+    background-image: url(../images/QNCC.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 0px;
+}
 
 section.meetings-page {
     background-image: url(../images/sec.png);
@@ -1869,4 +1910,15 @@ responsive
     .header-area .main-nav .nav li ul.sub-menu li a {
         color: #1f272b;
     }
+}
+
+#DIAMOND {
+    background-image: url(assets/images/plan.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 0px;
+    background-color: red;
 }

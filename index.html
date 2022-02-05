@@ -82,10 +82,10 @@
                             <li class="has-sub">
                                 <a href="javascript:void(0)">exhibition</a>
                                 <ul class="sub-menu">
-                                    <li><a href="meetings.html">About the venue</a></li>
-                                    <li><a href="meeting-details.html">Exhibitor List</a></li>
-                                    <li><a href="meeting-details.html">Book your stand</a></li>
-                                    <li><a href="meeting-details.html">Floor plan</a></li>
+                                    <li><a href="exhibition-about.html">About the venue</a></li>
+                                    <li><a href="exhibition-about.html#ex-list">Exhibitor List</a></li>
+                                    <li><a href="exhibition-about.html#bookstand">Book your stand</a></li>
+                                    <li><a href="exhibition-about.html">Floor plan</a></li>
                                 </ul>
                             </li>
 
@@ -93,17 +93,17 @@
                             <li class="has-sub">
                                 <a href="javascript:void(0)">Sponsors</a>
                                 <ul class="sub-menu">
-                                    <li><a href="meetings.html">Soonsor ship opprtunity</a></li>
-                                    <li><a href="meeting-details.html">Be a sponsor</a></li>
+                                    <li><a href="sponsor.html">Soonsor ship opprtunity</a></li>
+                                    <li><a href="sponsor.html#besps">Be a sponsor</a></li>
 
                                 </ul>
                             </li>
 
-                            <li class="scroll-to-section"><a href="#courses">visit</a></li>
+                            <li class="scroll-to-section"><a href="#contact">visit</a></li>
                             <!--============================== form pop up modal=============================================== -->
                             <li class="scroll-to-section"><a href="#courses">Media</a></li>
 
-                            <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                            <li><a href="contactus2.html">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -142,23 +142,32 @@
                             border-radius: 8px;
                         }
                     </style>
-                    <div class="col-lg-6">
+                    <div id="tamiim" class="col-lg-6">
                         <div class="col-lg-6" ">
                             <img style= "width:200px; border-radius: 10px; margin-left: 50px; " src="assets/images/amir.png " alt=" ">
                         </div>
                         <div class=" oussama col-lg-9 " style="width: 100%; ">
-                            <p style="width: 60%; margin: 15px ; color: white; ">“Qatar is looking forward, and more excited and enthusiastic than ever, to welcome guests from all over the world for an exceptional World Cup".</p>
-                            <h6>HIS HIGHNESS SHEIKH TAMIM BIN HAMAD AL THANI <br>Amir of the State of Qatar.”</h6>
+                            <p style="width: 60%; margin: 15px ; color: white; "> <em> “Qatar is looking forward, and more excited and enthusiastic than ever, to welcome guests from all over the world for an exceptional World Cup".</p>
+                            <h6>HIS HIGHNESS SHEIKH TAMIM BIN HAMAD AL THANI <br>Amir of the State of Qatar.”</em>
+                            </h6>
                             <style>
                                 .section .container .row .col-lg-6 .oussama h6,
                                 h4 {
                                     color: white;
                                 }
+                                
+                                @media only screen and (max-width: 1000px) {
+                                    #tamiim {
+                                        display: none;
+                                    }
+                                }
                             </style>
                         </div>
                     </div>
                     <!-- compteur -->
-                    <div class="col-lg-6 " style="background-color: white; align-items: center; text-align: center; padding: 10px auto; border-radius: 10px;">
+                    <div class="col-lg-6 " style="background-color: white; align-items: center;
+
+                     text-align: center; padding-bottom: 10px ; border-radius: 10px;">
 
                         <div class="col-lg-12 ">
 
@@ -206,11 +215,13 @@
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ================================================================================== -->
-    <section id="clients">
+    <section id="clients" style="margin-top: 20px;">
+        <h4 style="margin-top: 50px; color: rgb(253, 253, 253); border-radius: 6px; width: 30%; margin: 50px auto 10px; text-align: center; background-color: rgb(10, 105, 228);">Strategyc Parteners</h4>
         <div class="container">
             <div class="row">
+
                 <div class="customer">
-                    <img src="assets/images/clients/1.png" alt="expotale for event management and exhibition qatar" />
+                    <img style="width: 75px !important;" src="assets/images/clients/1.png" alt="expotale for event management and exhibition qatar" />
                 </div>
                 <div class="customer">
                     <img src="assets/images/clients/2.png" style="width: 200px;" alt="expotale for event management and exhibition qatar" />
@@ -245,8 +256,9 @@
 
         <div class="container">
             <div class="row">
-                <h1 style="text-align: center; width: 800px; margin: 50px auto; background-color: white; border-radius: 10px;">WHY QATAR INT’L SPORT ENGINEERING EXHIBITION & CONFERENCE</h1>
-                <h4 style="text-align: center; background-color: #212529 ; border-radius: 10px; ">Sports engineering is concerned with the research and development of technologies for the sports industry</h4>
+                <h3 style="text-align: center; width: 800px; margin: 50px auto; background-color: white; border-radius: 10px;">
+                    <SPan style="color: red;">W</SPan>HY QATAR INT’L SPORT <span style="color: rgb(10, 91, 241);">ENGINEERING</span> <span style="color: rgb(241, 187, 10);">CONFERENCE</span> & EXHIBITION</h3>
+                <h4 style="text-align: center; background-color: #212529 ; border-radius: 10px; width: 60%;  ">Sports engineering is concerned with the research and <span style="color: rgb(241, 33, 10);">DEVELOPMENT OF TECHNOLOGIES</span> for the sports industry</h4>
             </div>
             <div class="col-lg-10" style="width: 80%; margin: 60px auto;">
 
@@ -266,6 +278,7 @@
                     
                     .accordion:hover {
                         background-color: rgb(22, 20, 114);
+                        color: white;
                     }
                     
                     .panel {
@@ -363,11 +376,11 @@
                                     <div id="radiosub">
                                         <label for="f-option" class="l-radio">
                                           <input type="radio" id="f-option" name="selector" tabindex="1">
-                                          <span>Exhibitor</span>
+                                          <span>Sponsor</span>
                                         </label>
                                         <label for="s-option" class="l-radio">
                                           <input type="radio" id="s-option" name="selector" tabindex="2">
-                                          <span>visitor</span>
+                                          <span>Exhibitor </span>
                                         </label>
                                         <label for="t-option" class="l-radio">
                                           <input type="radio" id="t-option" name="selector" tabindex="3">
@@ -375,12 +388,9 @@
                                         </label>
                                         <label for="t-option" class="l-radio">
                                             <input type="radio" id="t-option" name="selector" tabindex="3">
-                                            <span>Speaker</span>
+                                            <span>visitor</span>
                                           </label>
-                                        <label for="t-option" class="l-radio">
-                                            <input type="radio" id="t-option" name="selector" tabindex="3">
-                                            <span>Speaker</span>
-                                          </label>
+
                                         <style>
                                             #radiosub label {
                                                 margin: 30px;
@@ -431,7 +441,7 @@
 
                                 <span><a href="https://qatarse.org/" target="_blank">Qatar Society Of Engineering</a></span>
                                 <hr>
-                                <span><a href="http://expotale.com/" target="_blank">Expotale for event management and exhibition</a></span>
+                                <span><a href="http://expotale.com/" target="_blank">Expotale for Event  and Production</a></span>
                             </li>
                         </ul>
                     </div>

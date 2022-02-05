@@ -33,30 +33,13 @@ https://templatemo.com/tm-569-edu-meeting
 
 
     <!-- Sub Header -->
-    <div class="sub-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-sm-8">
 
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <div class="right-icons">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" style="background-color: white; border-radius: 10px;">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
@@ -80,10 +63,10 @@ https://templatemo.com/tm-569-edu-meeting
                             <li class="has-sub">
                                 <a href="javascript:void(0)">exhibition</a>
                                 <ul class="sub-menu">
-                                    <li><a href="meetings.html">About the venue</a></li>
-                                    <li><a href="meeting-details.html">Exhibitor List</a></li>
-                                    <li><a href="meeting-details.html">Book your stand</a></li>
-                                    <li><a href="meeting-details.html">Floor plan</a></li>
+                                    <li><a href="exhibition-about.html">About the venue</a></li>
+                                    <li><a href="exhibition-about.html#ex-list">Exhibitor List</a></li>
+                                    <li><a href="exhibition-about.html#bookstand">Book your stand</a></li>
+                                    <li><a href="exhibition-about.html">Floor plan</a></li>
                                 </ul>
                             </li>
 
@@ -91,17 +74,17 @@ https://templatemo.com/tm-569-edu-meeting
                             <li class="has-sub">
                                 <a href="javascript:void(0)">Sponsors</a>
                                 <ul class="sub-menu">
-                                    <li><a href="meetings.html">Soonsor ship opprtunity</a></li>
-                                    <li><a href="meeting-details.html">Be a sponsor</a></li>
+                                    <li><a href="sponsor.html">Soonsor ship opprtunity</a></li>
+                                    <li><a href="sponsor.html#besps">Be a sponsor</a></li>
 
                                 </ul>
                             </li>
 
-                            <li class="scroll-to-section"><a href="#courses">visit</a></li>
+                            <li><a href="index.html#contact">visit</a></li>
                             <!--============================== form pop up modal=============================================== -->
                             <li class="scroll-to-section"><a href="#courses">Media</a></li>
 
-                            <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                            <li><a href="contactus2.html">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -128,6 +111,11 @@ https://templatemo.com/tm-569-edu-meeting
                                     </div>
                                     <div class="date">
                                         <h6>March <span>27-29</span></h6>
+                                    </div>
+                                    <div class="date" style=" height: 60px; left: 20px;">
+                                        <a href="meetings.html" target="_BLANK">
+                                            <h4> BACK</h4>
+                                        </a>
                                     </div>
                                     <a href="meetings.html"><img src="assets/images/Features/03.jpg" alt=""></a>
                                 </div>
@@ -185,6 +173,180 @@ https://templatemo.com/tm-569-edu-meeting
         </div>
         <div class="footer">
         </div>
+    </section>
+    <section class="contact-us" id="contact">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 align-self-center">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form id="contact" action="oussama.php" method="post">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h2>Book now</h2>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <fieldset>
+                                            <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <fieldset>
+                                            <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <fieldset>
+                                            <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
+                                        </fieldset>
+                                    </div>
+
+
+
+                                    <div id="radiosub">
+                                        <label for="f-option" class="l-radio">
+                                          <input type="radio" id="f-option" name="selector" tabindex="1">
+                                          <span>Sponsor</span>
+                                        </label>
+                                        <label for="s-option" class="l-radio">
+                                          <input type="radio" id="s-option" name="selector" tabindex="2">
+                                          <span>Exhibitor </span>
+                                        </label>
+                                        <label for="t-option" class="l-radio">
+                                          <input type="radio" id="t-option" name="selector" tabindex="3">
+                                          <span>Speaker</span>
+                                        </label>
+                                        <label for="t-option" class="l-radio">
+                                            <input type="radio" id="t-option" name="selector" tabindex="3">
+                                            <span>visitor</span>
+                                          </label>
+
+                                        <style>
+                                            #radiosub label {
+                                                margin: 30px;
+                                            }
+                                        </style>
+                                    </div>
+
+
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <input id="form-submit" class="button" type="submit" value="Send">
+
+                                            <!-- <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button> -->
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="right-info">
+                        <ul>
+                            <li>
+                                <h6>Phone Number</h6>
+                                <a href="tel:0097444325916" class="phonecalll">0097444325916</a>
+                                <a href="tel:0097433673419" class="phonecalll">0097433673419</a>
+
+
+                            </li>
+                            <li>
+                                <h6>Email Address</h6>
+                                <span>   <a href="mailto:sports@qatarse.org">sports@qatarse.org</a>
+
+                             </span>
+                            </li>
+                            <li>
+                                <h6>Qatar Society Of Engineering</h6>
+                                <span>Qatar - Doha - Palm Tower B - Floor 10</span>
+                            </li>
+                            <li>
+                                <h6>Website </h6>
+
+                                <span><a href="https://qatarse.org/" target="_blank">Qatar Society Of Engineering</a></span>
+                                <hr>
+                                <span><a href="http://expotale.com/" target="_blank">Expotale for Event  and Production</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="stickyicon-list">
+
+
+            <a href="tel:0097433673419" class="phonecall">
+                <i class="far fa-phone-volume"></i>
+            </a>
+            <a href="https://wa.me/97433673419?text= hello test 1 from oussama !! " class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp"></i>
+            </a>
+
+
+            <style>
+                /* Style the Sticky icons social media on web page */
+                
+                .stickyicon-list {
+                    position: fixed;
+                    top: 69%;
+                    left: 10px;
+                    transform: translateY(-50%);
+                    z-index: 5;
+                    text-align: center;
+                    width: 50px;
+                    opacity: .7;
+                }
+                
+                .stickyicon-list:hover {
+                    opacity: 1;
+                }
+                
+                .stickyicon-list a {
+                    display: block;
+                    padding: 8px;
+                    transition: all 0.5s ease;
+                    color: white;
+                    font-size: 20px;
+                    margin-top: 10px;
+                }
+                /* HOver affect on sticky social media icons */
+                
+                .stickyicon-list a:hover {
+                    transform: scale(1.3, 1.3);
+                }
+                /* Now we have to design each icon of social media */
+                
+                .whatsapp {
+                    color: white;
+                    background: #37db21;
+                    border-radius: 10px;
+                }
+                
+                .phonecall {
+                    background: #e9dc29;
+                    color: #464ceb;
+                    border-radius: 10px;
+                }
+            </style>
+
+
+        </div>
+
     </section>
 
 
