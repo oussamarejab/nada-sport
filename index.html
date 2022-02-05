@@ -370,22 +370,36 @@
                                             <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
                                         </fieldset>
                                     </div>
-
-
-
                                     <div id="radiosub">
                                         <label for="f-option" class="l-radio">
-                                          <input type="radio" id="f-option" name="selector" tabindex="1">
-                                          <span>Sponsor</span>
-                                        </label>
+                                            <input type="radio" id="f-option" name="selector" tabindex="1">
+                                            <span>Sponsor</span>
+                                            <select id="select2">
+                                                <option value="l1">list2-1</option>
+                                                <option value="l2">list2-2</option>
+                                                <option value="l2">list2-2</option>
+
+                                            </select> </label>
+
+
                                         <label for="s-option" class="l-radio">
-                                          <input type="radio" id="s-option" name="selector" tabindex="2">
-                                          <span>Exhibitor </span>
+                                            <input type="radio" id="s-option" name="selector" tabindex="2">
+                                            <span>Exhibitor </span> 
+                                        </select> 
+                                            <select id="select1" style='display:none;'>
+                                                <option value="l1">Space only</option>
+                                                <option value="l2">Upgrade</option> </select>
                                         </label>
+
+
                                         <label for="t-option" class="l-radio">
                                           <input type="radio" id="t-option" name="selector" tabindex="3">
                                           <span>Speaker</span>
+                                          <input type="text" id="selecttopic" style='display:none;' name="topic"  placeholder="write your topic">
+                                      
                                         </label>
+
+
                                         <label for="t-option" class="l-radio">
                                             <input type="radio" id="t-option" name="selector" tabindex="3">
                                             <span>visitor</span>
@@ -395,8 +409,58 @@
                                             #radiosub label {
                                                 margin: 30px;
                                             }
+                                            
+                                            #selecttopic {
+                                                border: 1x solid;
+                                                background-color: rgba(49, 60, 218, 0.309) !important;
+                                            }
+                                            
+                                            #select2,
+                                            #select1 {
+                                                display: none;
+                                                width: 150px;
+                                                border-radius: 8px;
+                                            }
+                                            
+                                            #select2 option {
+                                                border-radius: 8px;
+                                            }
                                         </style>
                                     </div>
+
+                                    <script>
+                                        function selecttopic() {
+                                            document.getElementById("selecttopic").style.display = "block";
+                                            document.getElementById("select2").style.display = "none";
+                                            document.getElementById("select1").style.display = "none";
+
+                                        }
+
+                                        function select1() {
+                                            document.getElementById("select1").style.display = "block";
+                                            document.getElementById("select2").style.display = "none";
+                                            document.getElementById("selecttopic").style.display = "none";
+
+                                        }
+
+                                        function select2() {
+                                            document.getElementById("select2").style.display = "block";
+                                            document.getElementById("select1").style.display = "none";
+                                            document.getElementById("selecttopic").style.display = "none";
+
+                                        }
+                                        document.getElementById("s-option").onclick = select1;
+                                        document.getElementById("f-option").onclick = select2;
+                                        document.getElementById("t-option").onclick = selecttopic;
+                                    </script>
+
+
+
+
+
+
+
+
 
 
                                     <div class="col-lg-12">
